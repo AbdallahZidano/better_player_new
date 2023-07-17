@@ -1,0 +1,24 @@
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.fvm/
+/build/
+
+
+# itlegend_4
+
+/itlegend_4.dart_tool/
+/itlegend_4.flutter-plugins
+/itlegend_4.flutter-plugins-dependencies
+/itlegend_4.packages
+/itlegend_4.pub-cache/
+/itlegend_4.pub/
+/itlegend_4/build/
+/itlegend_4/todo.txt
+

@@ -9,7 +9,7 @@ add macos support.
 
 ``` yaml
 dependencies:
-    disk_space:
+    better_player_new:
         git:
             url: git://github.com/AbdallahZidano/better_player_new.git
 ```

@@ -3,6 +3,11 @@
 
 fork version of [https://github.com/jhomlala/betterplayer](https://github.com/jhomlala/betterplayer)  
 
+ 1- watermark 
+ 2- custom playback speed 
+ 3- fix playlist issue 
+ 4- fix video can't be played issue
+
 add macos support.  
 
 `pubspec.yaml`

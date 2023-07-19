@@ -1,5 +1,5 @@
 
-# better_player_new
+# better_player
 
 fork version of [https://github.com/jhomlala/betterplayer](https://github.com/jhomlala/betterplayer)  
 
@@ -14,9 +14,9 @@ add macos support.
 
 ``` yaml
 dependencies:
-    better_player_new:
+    better_player:
         git:
-            url: git://github.com/AbdallahZidano/better_player_new.git
+            url: git://github.com/AbdallahZidano/better_player.git
 ```
 
 ## Getting Started

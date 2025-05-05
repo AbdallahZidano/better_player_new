@@ -1,5 +1,4 @@
 import 'package:collection/collection.dart';
-import 'package:flutter/cupertino.dart';
 
 import 'scheme_data.dart';
 
@@ -10,14 +9,13 @@ class DrmInitData {
   final String? schemeType;
 
   @override
-  bool operator ==(dynamic other) {
-    if (other is DrmInitData) {
-      return schemeType == other.schemeType &&
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is DrmInitData &&
+          runtimeType == other.runtimeType &&
+          schemeType == other.schemeType &&
           const ListEquality<SchemeData>().equals(other.schemeData, schemeData);
-    }
-    return false;
-  }
 
   @override
-  int get hashCode => hashValues(schemeType, schemeData);
+  int get hashCode => Object.hash(schemeType, schemeData);
 }
